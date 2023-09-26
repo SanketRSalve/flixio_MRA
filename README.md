@@ -1,16 +1,55 @@
-# flixio_app
+# FLIXIO - A Movie Suggestion App
 
-A new Flutter project.
+![Banner Image](images/FlixioApp.png)
 
-## Getting Started
+Flixio is a Flutter-based mobile application that suggests movies based on selected genres and ratings.
 
-This project is a starting point for a Flutter application.
+[![Flutter Version](https://img.shields.io/badge/Flutter-latest-blue.svg)](https://flutter.dev/docs/get-started/install)
+[![Dart Version](https://img.shields.io/badge/Dart-latest-blue.svg)](https://dart.dev/get-dart)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- User can select genres and rating preferences.
+- The app suggests movies based on the chosen criteria.
+- Utilizes TMDB API to fetch movie data.
+
+## Dependencies
+
+Make sure you have the following dependencies installed:
+- [dio](https://pub.dev/packages/dio)
+- [Riverpod](https://pub.dev/packages/riverpod)
+- [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter)
+- [google_fonts](https://pub.dev/packages/google_fonts)
+
+To install these dependencies, add the following to your `pubspec.yaml` file and run `flutter pub get`:
+```yaml
+dependencies:
+  dio: ^latest_version
+  riverpod: ^latest_version
+  font_awesome_flutter: ^latest_version
+  google_fonts: ^latest_version
+```
+
+## Installation
+1. Clone the repository:
+```git clone https://github.com/your-username/flixio.git
+cd flixio/
+```
+2. Install dependencies:
+```
+flutter pub get
+```
+4. Run the app:
+```
+flutter run
+```
+For more details on Flutter installation and setup, refer to the [Flutter Documentation](https://docs.flutter.dev/get-started/install).
+
+## Usage
+- Open the app and select your preferred movie genres.
+- Set your desired movie rating.
+- The app will suggest movies based on your selections.
+
+## Acknowledgments
+- [TMDB](https://www.themoviedb.org) for providing movie data.
