@@ -18,7 +18,7 @@ Flixio is a Flutter-based mobile application that suggests movies based on selec
 
 Make sure you have the following dependencies installed:
 - [dio](https://pub.dev/packages/dio)
-- [Riverpod](https://pub.dev/packages/riverpod)
+- [Riverpod](https://pub.dev/packages/flutter_riverpod)
 - [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter)
 - [google_fonts](https://pub.dev/packages/google_fonts)
 
